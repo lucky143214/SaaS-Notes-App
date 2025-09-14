@@ -1,0 +1,174 @@
+# ===============================
+# DEPENDENCIES
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ===============================
+# ENVIRONMENT VARIABLES
+# ===============================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ===============================
+# BUILD OUTPUTS
+# ===============================
+dist/
+build/
+.vercel/
+.out/
+.next/
+.vite/
+
+# ===============================
+# RUNTIME & CACHE
+# ===============================
+.cache/
+.temp/
+.parcel-cache/
+.nuxt/
+.nest/
+.serverless/
+
+# ===============================
+# DATABASE (MongoDB Specific)
+# ===============================
+# Local MongoDB data directory
+data/
+mongodb/
+*.mongodb
+*.mongo
+
+# MongoDB log files
+mongod.log
+mongos.log
+
+# Database dumps/backups
+dump/
+backup/
+*.bson
+*.json
+
+# ===============================
+# LOGS
+# ===============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ===============================
+# COVERAGE & TESTING
+# ===============================
+coverage/
+.nyc_output/
+*.lcov
+jest-coverage/
+*.coverage
+
+# ===============================
+# IDE & EDITOR
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ===============================
+# OS SPECIFIC
+# ===============================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# ===============================
+# SERVER RUNTIME
+# ===============================
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ===============================
+# PACKAGE MANAGER
+# ===============================
+.npm/
+.yarn/
+.yarnrc.yml
+.pnpm-store/
+
+# ===============================
+# FRAMEWORK SPECIFIC
+# ===============================
+# React/Vite
+.eslintcache
+
+# Next.js
+.next/
+
+# Nuxt.js
+.nuxt/
+
+# Svelte
+.svelte-kit/
+
+# ===============================
+# MISC
+# ===============================
+*.tgz
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+*.temp
+
+# Certificate files
+*.pem
+*.crt
+*.key
+
+# ===============================
+# VERCEL DEPLOYMENT
+# ===============================
+.vercel
+.vercel_build_output/
